@@ -1,0 +1,19 @@
+SECTION 1: INTRODUCTION
+
+Relation Extraction (RE) is a task under the Natural Language Processing (NLP) field that focuses on identifying and classifying relations between entities expressed in text. This method mainly identifies semantic relationships such as person born in a place, organization located in a country, and much more. This is highly relevant in various applications such as Knowledge Graph Construction, Information Extraction, and Question Answering systems. The motivation behind RE is to enhance the efficacy of dealing with unstructured data to promote a better understanding of the information it contains.
+
+SECTION 2: HISTORY 
+
+The concept of Relation Extraction was introduced to tackle challenges in the field of information extraction where understanding and specifying connections between entities are crucial. Introduced in the early days of NLP, the idea has gone through several iterations and refinements. Its development aimed to address the problem of identifying specific relationships in large amounts of textual data.
+
+SECTION 3: KEY IDEAS
+
+The core concept behind Relation Extraction revolves around identifying and classifying relations between predefined entities in text. As a subtask under Information Extraction (IE), the primary components of Relation Extraction include Entity Recognition, where relevant entities in text are identified, and Relation Classification, where identified relationships are categorized into predefined classes. Mathematically, it's a typical classification problem where the input is a text containing entities and the output is a class to which the relationship between these entities belongs.
+
+SECTION 4: USES/APPLICATIONS
+
+Relation Extraction is employed in a wide array of applications. These uses include information extraction where meaningful and structured information is parsed from raw text data, and construction of knowledge graphs where the connections between the entities are crucial. Other uses include question answering systems, where these systems rely on identifying relationships to obtain accurate answers, and in text summarization, where the process improves the summary's accuracy by providing better context and connection of entities.
+
+SECTION 5: VARIATIONS
+
+Several variations of Relation Extraction exist to tackle diverse situations. These include Supervised, Semi-supervised, and Unsupervised Relation Extraction, each with different approaches to handle relation extraction challenges and varying in the amount of labeled data they require. Furthermore, Open Information Extraction and Nested Relation Extraction provide ways of capturing relations in various contexts. The broader picture includes entities and events extraction and all together constitute what is referred to as Information Extraction in Natural Language Processing.

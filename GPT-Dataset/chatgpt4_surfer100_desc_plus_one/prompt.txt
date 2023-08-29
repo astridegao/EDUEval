@@ -1,0 +1,39 @@
+Generate a survey about TOPIC, there should be five sub-sections: Introduction, History, Key Ideas, Variations and Applications. Each sub-section should contain 50-150 words. The following is the guideline for each section:
+
+SECTION 1: INTRODUCTION
+Describe what the topic is (a method, a model, a task, a dataset), which field/subfield it is part of, quick overview of applications and motivation behind concept and related ideas).
+
+
+SECTION 2: HISTORY
+Describe when or by who the topic was introduced, in what context, what problems it addresses.
+
+
+SECTION 3: KEY IDEAS
+Describe in greater depth (could provide some mathematical context or explain core concepts).
+
+
+SECTION 4: USES/APPLICATIONS
+Describe for what tasks this model/data is used.
+
+
+SECTION 5: VARIATIONS
+What variations or similar models, datasets, tasks exist and how does this topic fit into a bigger picture.
+
+Example survey:
+
+<INTRODUCTION>
+Word2Vec is one of the most popular tools to learn word embeddings using shallow neural networks. It first constructs a vocabulary from the training text data and then learns word embeddings. Word embeddings are vector representations of documents that allow neural networks to process text. Developed by Tomas Mikolov in 2013 at Google, Word2Vec is capable of capturing the context of a word in a document, semantic and syntactic similarity, and relation with other words. The two ways to obtain embeddings are Skip-Gram and Common Bag Of Words (CBOW). Word2Vec is widely used in many applications of Natural Language Processing.
+
+<HISTORY>
+Word2vec was developed by a group of researchers headed by Tomas Mikolov at Google. Machine learning models take vectors as input, so the models must turn the input text into numerical vectors before feeding it into the model. Previous models used word encoding schemes like word counts and frequencies that result in large and sparse vectors. These models describe documents but not the meaning of the words and similarities between them. These shortcomings were addressed by the Word2Vec algorithm by Mikolov. It works on the idea of distributional semantics so that similar meaning words appear together and dissimilar words are located far away.
+
+<KEY IDEAS>
+Word2Vec converts words into vector forms such that similar meaning words appear together and dissimilar words are located far away. Two architectures of Word2Vec are Common Bag Of Words (CBOW) and Skip-Gram. These models are shallow two-layer neural networks having one input layer, one hidden layer, and one output layer. Both methods look at a window of words for each target word to provide context to understand the meaning of words. The CBOW model takes the context of each word as the input and tries to predict the word corresponding to the context. A context may be a single word or a group of words. Skip-Gram essentially performs the opposite of CBOW by predicting the context from the target word. In both cases, the network uses back-propagation to learn. Word2vec provides an option to choose between CBOW and Skim-Gram. They are parameters during the training of the model. In addition, there are options to use negative sampling or a hierarchical softmax layer. Skip-gram with negative sub-sampling generally outperforms every other method.
+
+<USES/APPLICATIONS>
+Gensim provides the Word2Vec class for working with a Word2Vec model. Training your own word vectors can take a long time and uses lots of memory. An alternative is to simply use an existing pre-trained word embedding. Along with the paper and code for word2vec, Google also published a pre-trained word2vec model. It contains word vectors for a vocabulary of 3 million words trained on around 100 billion words from the google news dataset. Word2Vec is useful in feature generation, document clustering, text classification, and other natural language processing tasks. In addition to its utility as a word embeddings method, some of its concepts have been shown to be effective in creating recommendation engines and making sense of sequential data even in commercial, non-language tasks.
+
+<VARIATIONS>
+Word embeddings is an active research area trying to figure out better word representations than the existing ones. There are more ways to train word vectors than just Word2Vec. Stanford researchers also have their own word embedding algorithm like Word2Vec called Global Vectors for Word Representation, or GloVe for short. Like word2vec, the GloVe researchers also provide pre-trained word vectors. Gensim not only provides an implementation of word2vec but also Doc2vec and FastText which is developed by Facebook. Tensorflow, Gensim, and other implementations for Python make it pretty easy to use a Word2Vec model.
+
+{'rouge-1': {'r': 0.33560904643142697, 'p': 0.30781901124265876, 'f': 0.31463110751620504}, 'rouge-2': {'r': 0.08738662038202746, 'p': 0.08118840661296416, 'f': 0.08206044897188167}, 'rouge-l': {'r': 0.3074302534020307, 'p': 0.28128341359491926, 'f': 0.2878491091275725}}

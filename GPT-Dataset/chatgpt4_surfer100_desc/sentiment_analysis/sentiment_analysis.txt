@@ -1,0 +1,19 @@
+Section 1: Introduction
+
+Sentiment Analysis, also known as Opinion Mining, is a crucial aspect of Natural Language Processing (NLP), wherein the subjective information in text data is extracted, helping to understand the sentiments expressed. It involves determining whether the sentiment conveyed in a piece of text is positive, negative, or neutral. The motivation behind this concept is to gain an understanding of the attitudes, opinions, and emotions of the people towards certain topics, issues, products, etc. It has various applications across different sectors such as business, politics, and social science.
+
+Section 2: History
+
+The concept of Sentiment Analysis surfaced during the early 2000s as businesses often wanted to understand customer behavior toward their products. Bing Liu, in his seminal work "Sentiment Analysis and Opinion Mining," was one of the first to formally introduce and contextualize it. Sentiment Analysis was introduced as a solution to identify and classify sentiments expressed in unstructured data.
+
+Section 3: Key Ideas
+
+The core concept of Sentiment Analysis involves three main components: polarity detection, subjectivity/objectivity identification, and emotion recognition. Polarity detection aims to ascertain whether the sentiment expressed is positive, negative, or neutral. Subjectivity/objectivity identification determines if a text is subjective (opinion) or objective (fact-based). Lastly, emotion recognition involves pinpointing specific emotional states expressed in the text such as happy, angry, sad, etc.
+
+Section 4: Uses/Applications
+
+Sentiment Analysis is widely used across various sectors. Businesses use it to understand customer sentiments towards their products or services, helping them to make data-driven decisions. It is also used by political parties to gauge public opinion towards policies or candidates. Social scientists use Sentiment Analysis to understand public opinion towards social issues or events in social media, news, and articles.
+
+Section 5: Variations
+
+Variations of Sentiment Analysis include Aspect-Based Sentiment Analysis, which not only identifies the sentiment but also the aspect of the product or service that the sentiment is related to. Emotion detection is another variation that classifies text into categories of emotions like joy, anger, sadness, etc. Sentiment Analysis forms a part of a larger field of study in NLP and Text Mining, and it continues to evolve with advancements in machine learning and artificial intelligence.

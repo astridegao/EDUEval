@@ -1,0 +1,19 @@
+**SECTION 1: INTRODUCTION**
+
+Maximum Marginal Relevance (MMR) is an innovative algorithm used in the field of information retrieval and machine learning. It serves as a method for re-ranking search results and helps in diversifying the search output to avoid redundancy. It is primarily applied in tasks such as document summarization, question-answering, and text mining. MMR is driven by the motivation to provide users with a more comprehensive overview of available documents by ensuring diversity and relevance in the search results.
+
+**SECTION 2: HISTORY**
+
+The Maximum Marginal Relevance was introduced by Jaime Carbonell and Jade Goldstein of Carnegie Mellon University in the late 1990s. The technique was created as a response to challenges in information retrieval where a user would receive numerous similar results, leading to a redundancy problem. MMR sought to address this issue by diversifying the search output while maintaining the relevance of the results.
+
+**SECTION 3: KEY IDEAS**
+
+The MMR algorithm optimizes the balance between relevance and novelty of documents presented in search results. The core concept behind MMR is to maximize the marginal relevance, a special metric defined as a linear combination of relevance and novelty. Mathematically, this can be presented as a trade-off problem between individual document's relevance score and its similarity to previously selected documents. The selection of lambda (balance factor) plays a crucial role in this algorithm to pose the weight on relevance against redundancy.
+
+**SECTION 4: USES/APPLICATIONS**
+
+MMR is widely used in a number of applications that require diverse and relevant information retrieval. It is extensively applied in document summarization, where it helps bring out the most relevant and non-repetitive information. Similarly, MMR is applied in E-commerce recommendation systems to provide customers with a variety of products relevant to their search. In academic or scholarly research, MMR aids in finding varied but related articles or papers.
+
+**SECTION 5: VARIATIONS**
+
+There exist many variants of MMR, such as PM-2 and xQuAD, amongst others. PM-2 aims to provide an improved ranking strategy by promoting the diversity among top-ranked documents. xQuAD's (Explicit Query Aspect Diversification) technique, on the other hand, extends the MMR by explicitly modeling the subtopics within a query. Despite the variations, each iteration of MMR remains focused on the main goal of striking a balance between relevancy and diversity of search results, further demonstrating the fundamental impact of the MMR concept across the broader field of information retrieval.

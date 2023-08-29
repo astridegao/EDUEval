@@ -1,0 +1,18 @@
+Sure! Here's a survey about "Maximum Marginal Relevance":
+
+<Introduction>
+Maximum Marginal Relevance (MMR) is a framework for selecting diverse and relevant documents from a set of search results. It was first introduced by Carbonell and Goldstein in 1998 as a way to address the information overload problem in information retrieval systems. MMR aims to find a balance between relevance and diversity, ensuring that the selected documents are not only highly relevant but also non-redundant. This makes MMR particularly useful in situations where users need a comprehensive view of a topic by considering multiple perspectives.
+
+<History>
+The concept of MMR was developed as a response to the limitations of traditional ranking algorithms that focus solely on relevance. Carbonell and Goldstein recognized that presenting users with a list of highly relevant but redundant documents can be overwhelming and lead to information overload. They proposed MMR as a solution to this problem by introducing a trade-off between relevance and diversity in the document selection process. Since its introduction, MMR has been widely studied and applied in various information retrieval tasks, such as document summarization and recommendation systems.
+
+<Key Ideas>
+The key idea behind MMR is to consider both the relevance of a document to a given query and its diversity with respect to the already selected documents. This is achieved by maximizing a combination of these two factors using a tunable parameter called the lambda value. The relevance is usually measured using similarity metrics like cosine similarity or BM25, while the diversity is quantified based on the dissimilarity between documents. By adjusting the lambda value, the user can control the trade-off between relevance and diversity, allowing for flexible document selection.
+
+<Variations>
+Over the years, several variations of MMR have been proposed to enhance its performance and applicability. Some variations focus on improving the diversity aspect by introducing new dissimilarity metrics or incorporating more advanced clustering techniques. Others explore the use of relevance feedback mechanisms to iteratively refine the document selection process. Additionally, researchers have also looked into extending MMR to handle multi-criteria optimization problems, where documents need to be selected based on multiple dimensions of relevance and diversity.
+
+<Applications>
+MMR has found applications in various domains, including information retrieval, document summarization, and recommendation systems. In information retrieval, MMR can help improve the quality of search results by presenting users with diverse and relevant documents, ensuring a comprehensive coverage of the topic of interest. In document summarization, MMR can be used to select representative sentences that capture different aspects of the input documents. In recommendation systems, MMR can help address the problem of serendipity by suggesting items that are not only similar to the user's preferences but also diverse in nature, leading to a more engaging and personalized user experience.
+
+I hope this survey on "Maximum Marginal Relevance" is helpful to you!

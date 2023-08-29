@@ -1,0 +1,14 @@
+SECTION 1: INTRODUCTION
+Residual Neural Network (ResNet) is a convolutional neural network model used in the field of deep learning. It takes advantage of "shortcut connections" or "skip connections" which allow it to effectively train on large datasets, providing accurate results in image classification tasks among others. ResNet addresses the problem of vanishing gradients, which often occurs in traditional deep neural networks. The model has been instrumental in tasks such as object detection, face recognition, and even medical image analysis - buttressing an array of technological advancements.
+
+SECTION 2: HISTORY
+Residual Neural Networks were introduced by Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun in 2015. The concept was unveiled in the paper "Deep Residual Learning for Image Recognition," presented at the Neural Information Processing Systems (NIPS) Conference. The model specifically addressed the problem of accuracy saturation and degradation, a key limitation witnessed in deeper networks due to the vanishing gradients problem.
+
+SECTION 3: KEY IDEAS
+The core idea behind ResNet is the use of shortcut connections between layers. Normally, the process of training can be hindered due to the vanishing gradient problem. However, shortcut connections bypass this problem by allowing the gradient to be directly backpropagated to earlier layers. Furthermore, it uses identity mapping to preserve the integrity of the original input. This strikes a balance between model depth and complexity, implementing deeper networks without a proportional increase in errors.
+
+SECTION 4: USES/APPLICATIONS
+ResNet has been employed in a wide variety of applications. Primarily used for image-based tasks, it has shown strong performance in image recognition and classification, and object detection. ResNet is also used in face recognition and computer vision tasks due to its robustness in overcoming real-world visual challenges. Furthermore, its applications extend to medical fields, where it has been used for medical image analysis, diagnosis assistance, and other imaging-related tasks.
+
+SECTION 5: VARIATIONS
+Several variations of ResNet have been proposed that build upon the initial model. These include ResNeXt, which introduces a “cardinality” dimension to add more paths for information flow. DenseNet, another variant, extends the skip connection concept, connecting each layer to every other subsequent layer in the network. In the broader context, ResNet and its variations reside within the deep learning subfield of artificial intelligence, contributing significantly to the current understanding and evolution of neural networks.

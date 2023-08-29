@@ -1,0 +1,14 @@
+Section 1: Introduction
+RMSProp (Root Mean Square Propagation) is an optimization algorithm used in neural networks and machine learning. It is designed to resolve the diminishing learning rates issue of stochastic gradient descent (SGD). RMSProp adjusts the learning rate adaptively for each weight in the model and maintains per-parameter learning rates that are adapted based on the average of recent magnitudes of the gradients for the weight.
+
+Section 2: History
+RMSProp was first proposed by Geoffrey Hinton in his Coursera course "Neural Networks for Machine Learning". It was introduced as an unpublished, adaptive learning rate method, and since then, it has been widely adopted in the deep learning community due to its efficiency and ease of implementation.
+
+Section 3: Key Ideas
+The key idea behind RMSProp is to use a moving average of squared gradients to normalize the gradient itself. That means the algorithm always divides the gradient by the root mean square (RMS) of its recent values. This helps to mitigate the problem of vanishing and exploding gradients, which are common issues in deep neural networks.
+
+Section 4: Variations
+While RMSProp itself is a specific algorithm, it has similarities to other adaptive learning rate methods such as Adagrad and Adam. Adam, or Adaptive Moment Estimation, can be seen as a combination of RMSProp and momentum optimization, as it keeps an exponentially decaying average of past gradients like momentum optimization, in addition to the exponentially decaying average of past squared gradients like RMSProp.
+
+Section 5: Applications
+RMSProp is widely used in training deep neural networks, where it helps to speed up the training process and improve the final model performance. It is particularly useful in situations where the data or the objective function is non-stationary, or when a more robust optimizer is required. It's commonly used in various applications of deep learning, including image recognition, natural language processing, and reinforcement learning.

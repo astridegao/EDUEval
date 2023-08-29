@@ -1,0 +1,14 @@
+SECTION 1: INTRODUCTION
+Gradient Boosting is an ensemble learning method in the field of machine learning. The core idea behind Gradient Boosting is to combine weak learners, often decision trees, to create a strong predictive model. Its applications encompass various domains like web search ranking and ecology. The motivation behind Gradient Boosting is to minimize errors by improving the model's performance incrementally. 
+
+SECTION 2: HISTORY
+Gradient Boosting was introduced by Leo Breiman, an American statistician, in 1997. The method arose as an improvement to bootstrap aggregating, a combination of decision tree prediction models. The fundamental problem Gradient Boosting addresses is minimizing the prediction error by improving on areas in which previous models fell short.
+
+SECTION 3: KEY IDEAS
+Gradient Boosting focuses on reducing errors through iterations. It starts with a weak base learner to predict the target variable and calculate the error. Subsequent models are then built that attempt to correct the errors of the preceding model. These models are combined to make the final prediction. 
+
+SECTION 4: USES/APPLICATIONS
+Gradient Boosting is used across several tasks due to its adaptability and accuracy. It is commonly applied in the domain of web search ranking - wherein the rank of a web page is determined based on numerous factors. Besides, it is also beneficial in domains such as ecology for predictive modeling, regression and classification problems. 
+
+SECTION 5: VARIATIONS
+Several variations of Gradient Boosting exist, including AdaBoost (Adaptive Boosting), XGBoost (Extreme Gradient Boosting), and LightGBM. While the core idea is akin across all, each variation has unique ways to preserve accuracy and speed. For instance, XGBoost handles sparse data better and is faster than regular Gradient Boosting. They define the larger picture of ensemble learning methods in machine learning.

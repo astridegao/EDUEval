@@ -1,0 +1,14 @@
+SECTION 1: INTRODUCTION
+Decision Trees are graphical representations used in the field of machine learning and data mining to display an algorithm that only contains control flow statements. The main application is in decision analysis to help identify a strategy most likely to reach a goal. The concept is ideal because it provides clear and explicit tools that help to make logical, coherent, and rational decisions. They are useful for both categorical and numerical input and output variables, encompassing the concepts of classification and regression tasks.
+
+SECTION 2: HISTORY
+Decision Trees were first introduced in 1959 by Oliver Selfridge and Ulric Neisser in Pattern Recognition but later gained standard usage in 1963 in the book "Learning with Probabilities" by Earl Hunt, Janet Martin, and Howard Feinstein. The method was designed to provide an algorithmic model for non-parametric supervised learning. The model was conceptualized to better address issues of data grouping predicates, providing accurate and usable outcomes.
+
+SECTION 3: KEY IDEAS
+At its core, the concept of Decision Trees is about making the best possible choice at each decision point in a systematic, hierarchical manner. It uses the concept of entropy or information gain to choose the best split at each node. The tree is built in a recursive manner by splitting the data at each node according to specific rules (splitting criteria) until terminal nodes, or leaves, are reached.
+
+SECTION 4: USES/APPLICATIONS
+Decision Trees are applied in various fields where data based decisions are paramount. In healthcare, Decision Trees are used for predicting patient illness, and in finance, they can be used for credit scoring. In manufacturing and production, Decision Trees can be used for quality control, and in retail, for customer segmentation. They are also extensively used in data mining, machine learning, and artificial intelligence for decision-making processes involving numerous related decisions.
+
+SECTION 5: VARIATIONS
+Variations of Decision Trees include Random Forests and Gradient Boosting Machines (GBM) that use multiple decision trees to improve prediction accuracy. With Ensemble methods like Bagging or Boosting, these variants leverage the power of multiple decision trees for better predictive performance. Another variation is the Chi-Square Automatic Interaction Detection (CHAID), which applies chi-square tests to identify the best split. These variations color our understanding of Decision Trees by showcasing their adaptability and flexibility in handling diverse real-world problems.

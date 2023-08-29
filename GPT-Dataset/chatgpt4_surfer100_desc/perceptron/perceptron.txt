@@ -1,0 +1,16 @@
+Survey on Perceptron
+
+SECTION 1: INTRODUCTION
+The Perceptron is an algorithm used for supervised learning of binary classifiers. It is a type of artificial neural network and falls under the field of Machine Learning. It serves as a linear model that classifies input into two different categories, making it suitable for real-world applications like email filtering, image recognition, and sentiment analysis. Its concept is similar to logistic regression, differing mainly in taking a step function over the input, instead of logistic. 
+
+SECTION 2: HISTORY
+The Perceptron was introduced in 1957 by psychologist Frank Rosenblatt. In the context of artificial intelligence's pioneering stages, he aimed to illustrate how simple cells in an artificial neural network could be trained to mimic basic reasoning processes conducted by a biological brain. It was initially implemented as a hardware device, addressing physical data processing.
+
+SECTION 3: KEY IDEAS
+In essence, the Perceptron draws upon the concept of weighted inputs, where each input is associated with a weight signifying its importance. The network takes these inputs, multiplies them by their weights, sums them up and passes them through an activation function (typically a step function). If the output exceeds a certain threshold, it predicts one class, otherwise, it predicts the other. It’s a relatively simple yet effective model in binary classification tasks.
+
+SECTION 4: USES/APPLICATIONS
+Perceptrons find wide applications in fields requiring binary classification. They are used in image recognition tasks to distinguish between different objects. In Natural Language Processing, Perceptrons help in sentiment analysis, categorizing sentiments as positive or negative. Spam detection in emails can also be carried out using Perceptron algorithms.
+
+SECTION 5: VARIATIONS
+Variations of the original Perceptron model include the Multilayer Perceptron, which allows tackling of data that is not linearly separable, and Kernel Perceptron, solving similar problems using kernel functions. These iterations emphasize the role of Perceptron models in more complex tasks, widening the scope of machine learning. This survey helps to fit the topic of Perceptron into a broader understanding of the field and its evolution.

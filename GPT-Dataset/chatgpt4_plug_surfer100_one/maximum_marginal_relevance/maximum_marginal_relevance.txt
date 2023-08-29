@@ -1,0 +1,14 @@
+Section 1: Introduction
+Maximum Marginal Relevance (MMR) is an algorithm used in information retrieval and natural language processing fields. It aims to reduce redundancy while maintaining query relevance in the retrieval of information. MMR addresses the problem of returning highly similar results in response to a query, by re-ranking them based on their novelty or diversity.
+
+Section 2: History
+The Maximum Marginal Relevance (MMR) was introduced by Jaime Carbonell and Jade Goldstein of Carnegie Mellon University in 1998. The algorithm was developed to address the issue of redundancy in information retrieval systems, which often return a list of highly similar documents, thus limiting the breadth of information presented to the user.
+
+Section 3: Key Ideas
+The key idea behind MMR is to create a balance between relevance (how well a document meets the query's intent) and diversity (how different the document is from other documents already selected). The MMR criterion is used to re-rank documents, selecting at each step the document that has the maximum marginal relevance, i.e., is both relevant to the query and brings the most new information compared to the documents already selected.
+
+Section 4: Variations
+While the original MMR algorithm was designed for text documents, variations have been developed to handle other types of data, such as images or multimedia. Some variations also modify the balance between relevance and diversity, or the way these are measured, to better suit specific applications.
+
+Section 5: Applications
+MMR has a wide range of applications. It's used in search engines to provide a diverse set of relevant results. In text summarization, MMR is used to select sentences that are both relevant to the topic and diverse to create a more informative summary. MMR can also be used in recommendation systems to provide a diverse set of recommendations, and in question answering systems to provide a variety of relevant answers.

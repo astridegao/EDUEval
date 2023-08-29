@@ -1,0 +1,18 @@
+<SURVEY>
+
+<INTRODUCTION>
+Decision Trees are a popular machine learning algorithm used for classification and regression tasks. They model decisions or decision rules as trees, where each internal node represents a feature or attribute, and each leaf node represents a class or a value. Decision Trees are easy to understand, interpret, and visualize, making them suitable for both beginners and experts in the field. They are widely used in various domains such as finance, healthcare, and marketing.
+
+<HISTORY>
+The concept of decision trees dates back to the 1960s, with the development of the ID3 algorithm by J. Ross Quinlan. This algorithm used an information gain measure to select the best attribute for splitting the data at each node. Since then, various improvements and extensions have been made to decision tree algorithms, such as the C4.5 algorithm and its successor, C5.0. These algorithms introduced techniques like pruning, handling missing values, and dealing with numeric attributes.
+
+<KEY IDEAS>
+Decision Trees follow a top-down recursive divide-and-conquer strategy to build the tree. At each internal node, an attribute is selected to split the data, based on criteria like information gain, Gini impurity, or entropy. The tree is grown until a stopping criterion is met, such as reaching a maximum depth, having a minimum number of samples, or achieving pure class nodes. During prediction, new instances traverse the tree from the root to a leaf, resulting in a classification or regression output.
+
+<VARIATIONS>
+Several variations of decision trees exist, such as Random Forests, Gradient Boosted Trees, and Adaptive Boosting. Random Forests combine multiple decision trees to make predictions and reduce overfitting. Gradient Boosted Trees sequentially fit decision trees to the residuals of the previous trees, resulting in an ensemble model with improved accuracy. Adaptive Boosting focuses on misclassified instances and assigns higher weights to them during tree construction.
+
+<APPLICATIONS>
+Decision Trees have a wide range of applications. In finance, they are used for credit scoring, fraud detection, and risk assessment. In healthcare, they help with disease diagnosis, treatment recommendation, and predicting patient outcomes. In marketing, decision trees are used for customer segmentation, churn prediction, and campaign targeting. They are also useful in recommendation systems, anomaly detection, and multi-class classification tasks.
+
+</SURVEY>

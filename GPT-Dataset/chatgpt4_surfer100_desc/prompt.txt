@@ -1,0 +1,22 @@
+Generate a survey about TOPIC, there should be five sub-sections: Introduction, History, Key Ideas, Variations and Applications. Each sub-section should contain 50-150 words. The following is the guideline for each section:
+
+SECTION 1: INTRODUCTION
+Describe what the topic is (a method, a model, a task, a dataset), which field/subfield it is part of, quick overview of applications and motivation behind concept and related ideas).
+
+
+SECTION 2: HISTORY
+Describe when or by who the topic was introduced, in what context, what problems it addresses.
+
+
+SECTION 3: KEY IDEAS
+Describe in greater depth (could provide some mathematical context or explain core concepts).
+
+
+SECTION 4: USES/APPLICATIONS
+Describe for what tasks this model/data is used.
+
+
+SECTION 5: VARIATIONS
+What variations or similar models, datasets, tasks exist and how does this topic fit into a bigger picture.
+
+{'rouge-1': {'r': 0.2807591341321743, 'p': 0.2835638562214448, 'f': 0.27649421701364923}, 'rouge-2': {'r': 0.07199022188493605, 'p': 0.07458944059233366, 'f': 0.07108494090793212}, 'rouge-l': {'r': 0.2543786389553386, 'p': 0.25614831456311504, 'f': 0.25012445320104454}}

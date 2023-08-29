@@ -1,0 +1,14 @@
+Section 1: Introduction
+Gradient Boosting is a machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees. It builds the model in a stage-wise fashion and generalizes them by allowing optimization of an arbitrary differentiable loss function.
+
+Section 2: History
+The idea of boosting originated from the question of whether a weak learner could be modified to become better. The term 'gradient boosting' was coined by Friedman in the late 1990s when he developed the gradient boosting machine. The technique has since been refined and improved, leading to the development of popular algorithms like XGBoost and LightGBM.
+
+Section 3: Key Ideas
+The key idea behind gradient boosting is to add new models to the ensemble sequentially. Each new model gradually minimizes the loss function of the whole system using the Gradient Descent method. The learning procedure consecutively fits new models to provide a more accurate estimate of the response variable.
+
+Section 4: Variations
+There are several variations of gradient boosting that are designed to increase efficiency and accuracy, or to make them suitable for different kinds of data. These include XGBoost, LightGBM, and CatBoost. Each of these algorithms has its own unique features and advantages. For example, XGBoost is renowned for its speed and performance, while LightGBM offers the advantage of lower memory usage.
+
+Section 5: Applications
+Gradient boosting can be used for both regression and classification problems, making it a versatile algorithm that can be used for a wide range of tasks. It has been successfully applied in many fields, including web search ranking, ecology, and medical diagnostics. In the field of machine learning, it's often used in the winning solutions for various Kaggle competitions.

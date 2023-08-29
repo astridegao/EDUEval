@@ -1,0 +1,14 @@
+SECTION 1: INTRODUCTION 
+Hidden Markov Models (HMMs) are statistical models used in artificial intelligence and machine learning, predominantly within the speech and language processing domain. HMM is an extension of a Markov Chain but has an additional layer of complexity where the states are 'hidden'. The main purpose of an HMM is to learn about hidden states based on observable data - a process that plays a critical role in decoding, recognizing, and predicting sequence data. 
+
+SECTION 2: HISTORY 
+Hidden Markov Models were first introduced in the late 1960s by Leonard. E. Baum and his team in the context of speech processing, specifically in signal detection and extraction problems. The method initially flourished in the areas of speech recognition, however, it presented a novel approach to address problems involving predictions based on non-observable states.
+
+SECTION 3: KEY IDEAS 
+Hidden Markov Models are distinguished by their directionality and the 'hidden' nature of their states. The states of an HMM sequence are not directly visible, but output, dependent on the state, is visible. These models assume that the hidden state at time ‘t’ depends only on the state at time ‘t-1’. This is known as the Markov property. The key concepts to grasp in an HMM include states, observations, transition probability, emission probability, and initial state distribution.
+
+SECTION 4: USES/APPLICATIONS
+Hidden Markov Models are foundational in many domains. In speech recognition, HMMs are used to understand uttered phrases based on spectra of sound frequencies. In Bioinformatics, they are applied for DNA sequence alignments and gene predictions. Other fields of application encompass finance for stock price predictions, weather analysis for predictions of meteorological phenomena, and handwriting recognition. Essentially, any domain that has a sequence of data with characteristics that evolve over time can benefit from HMM's.
+
+SECTION 5: VARIATIONS
+The basic HMMs faced certain limitations for complex problems, and this called for enhanced versions of the model, such as Gaussian Mixture Model (GMM-HMM), Continuous Profile Model, and Hierarchical HMM. These variations have been created adapting to the specific use-cases. For instance, GMM-HMM is a popular approach for speech and speaker recognition tasks. HMMs are also a part of a broader family of sequence labelling tasks, along with Conditional Random Fields (CRFs).

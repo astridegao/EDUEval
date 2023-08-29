@@ -1,0 +1,14 @@
+SECTION 1: INTRODUCTION
+Meta learning, also known as 'learning to learn', is an integral concept within the field of machine learning. It emphasizes designing systems that improve or optimize their ability to learn from new experiences over time. Applauded for its artificial intelligence approach, meta learning offers a solution to a myriad of complex tasks such as rapid skill acquisition, which was previously a human-only ability. Its motivation stems from the goal of creating flexible learning systems that can adapt quickly to new and unseen situations.
+
+SECTION 2: HISTORY 
+In the early 1990s, meta learning was first disseminated by pioneers like Schmidhuber and Thrun. They posited that instead of manually designing instructional algorithms, they should be learned. These efforts corresponded to the goal of mitigating the algorithm selection problem common in machine learning. This approach provided effective solutions by allowing machine learning algorithms to evolve and adapt based on unique circumstances.
+
+SECTION 3: KEY IDEAS
+The primary concept of meta learning is to create algorithms that increase their understanding by leveraging previous experiences. This is mostly achieved through the use of neural networks working at two levels: the base learning algorithm, which performs the specific task and the meta-learner, which alters the base learner's behavior based on its performance. Meta learning combines strategies such as reinforcement learning, gradient descent, and deep learning to optimize performance.
+
+SECTION 4: USES/APPLICATIONS
+Meta learning has widespread applications across numerous fields. In machine learning, it's used to improve the learning efficiency of algorithms. Additionally, it's deployed in natural language processing for understanding and generating languages. It's used in reinforcement learning environments where the system learns to make optimal decisions within an environment. Its potential for rapid skill acquisition and adaptability also shows promise for practical applications in robotics.
+
+SECTION 5: VARIATIONS
+There are several variations and extensions of meta learning, including Multi-Task Learning (MTL), which leverages information from multiple related tasks to improve generalization. Another is Few-Shot Learning (FSL), where models are designed to make accurate predictions with limited data. Meta learning closely aligns with lifelong learning and transfer learning, in that they all aim to leverage past knowledge to improve future learning or performance. Through these variations, meta learning becomes an essential piece in the larger picture of developing versatile and intelligent machine learning systems.

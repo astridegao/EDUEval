@@ -1,0 +1,14 @@
+Section 1: Introduction
+Residual Neural Networks (ResNets) are a type of artificial neural network that introduced the concept of "skip connections" or "shortcut connections". These connections allow the gradient to be directly backpropagated to earlier layers. ResNets have been a significant breakthrough in the field of deep learning, enabling the training of very deep networks by mitigating the problem of vanishing gradients.
+
+Section 2: History
+ResNets were introduced by Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun in their paper "Deep Residual Learning for Image Recognition" at the 2015 Conference on Neural Information Processing Systems (NeurIPS). The model achieved state-of-the-art performance in the ImageNet Large Scale Visual Recognition Challenge in 2015.
+
+Section 3: Key Ideas
+The key idea behind ResNets is the introduction of "shortcut connections" which skip one or more layers. Instead of trying to learn an underlying mapping from inputs to outputs, the model is tasked with learning the residual function (hence the name ResNet). This function is the difference between the input and the desired output. This approach helps to combat the vanishing gradient problem, which is common in deep neural networks.
+
+Section 4: Variations
+There are several variations of ResNets, including ResNet-18, ResNet-34, ResNet-50, ResNet-101, and ResNet-152, which differ in the number of layers. Other variations include Pre-Activation ResNets, Wide ResNets, and ResNeXt, which introduce modifications to the original architecture to improve performance or efficiency.
+
+Section 5: Applications
+ResNets have a wide range of applications in the field of computer vision. They are used in image and video recognition, image analysis, and are often used as a backbone in more complex architectures for tasks like object detection and semantic segmentation. ResNets have also been used in natural language processing and reinforcement learning, demonstrating their versatility.

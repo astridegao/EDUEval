@@ -1,0 +1,14 @@
+SECTION 1: INTRODUCTION
+Long Short-Term Memory (LSTM) Networks are a type of Recurrent Neural Network (RNN) used in the field of Deep Learning. LSTMs are designed to effectively handle sequencing issues and prevent long-term dependency problems encountered during training in traditional RNNs. LSTMs have found applications in various fields such as natural language processing and speech recognition, where making sense of previous context to understand the current state is crucial. The concept is closely related to addressing vanishing gradient problems in standard RNNs.
+
+SECTION 2: HISTORY
+The concept of LSTM Networks was initially introduced by Sepp Hochreiter and Jürgen Schmidhuber in 1997. It was motivated by the challenge traditional RNNs faced in learning long-term dependencies due to the vanishing gradient problem. The introduction of LSTMs brought about a solution to this problem, making it easier to train neural networks on more complex sequence tasks.
+
+SECTION 3: KEY IDEAS
+The key idea behind LSTM Networks is its unique ability to maintain and access long-term dependencies in a sequence of data. Unlike conventional RNNs, LSTMs have a 'cell state' that is influenced very minimally during the learning process. This is achieved through three fundamental components - input, forget and output gates. These 'gates' in LSTM help in preserving or removing information in the cell state, combating vanishing or exploding gradients and hence allow systems to effectively learn from data where past information is crucial in predicting future trends.
+
+SECTION 4: USES/APPLICATIONS
+LSTM Networks are utilized in a variety of domains. They form the backbone of many natural language processing tasks such as language translation and text generation. They're also vital in speech recognition systems and time-series predictions. Predictive text-input software on devices extensively uses LSTMs. Additionally, they're used in making professional predictions in stock markets, weather forecasting, and disease outbreak prediction.
+
+SECTION 5: VARIATIONS
+There are several variations of LSTM networks. Gated Recurrent Units (GRU) is a popular variation that simplifies the LSTM model by combining the forget and input gates into a single 'update gate'. Another variation is Peephole LSTM that allows the gate layers to peep at the cell state. There are also Depth Gated RNNs, Clockwork RNNs among others. These variants are designed per application needs, each adding to the broader framework of RNNs.

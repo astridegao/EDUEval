@@ -1,0 +1,14 @@
+Section 1: Introduction
+Decision Trees are a type of supervised learning algorithm that is mostly used in classification problems. It works for both categorical and continuous input and output variables. In this technique, we split the population or sample into two or more homogeneous sets based on the most significant splitter/differentiator in input variables.
+
+Section 2: History
+The concept of decision trees has been around since the 1960s, with the development of the Iterative Dichotomiser 3 (ID3) algorithm by Ross Quinlan. Over the years, decision tree algorithms have been refined and improved, leading to more sophisticated versions like C4.5 and CART (Classification and Regression Trees).
+
+Section 3: Key Ideas
+The key idea behind decision trees is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features. The decisions or rules are represented in a tree structure, making the algorithm easy to understand and interpret. The topmost decision node in a tree that corresponds to the best predictor is called the root node. Decision trees can handle both categorical and numerical data.
+
+Section 4: Variations
+There are several variations of decision tree algorithms, including ID3, C4.5, CART, and CHAID (Chi-squared Automatic Interaction Detection). Each algorithm has its own rules for splitting data and building a tree. For example, ID3 splits attributes based on information gain, while CART uses the Gini index.
+
+Section 5: Applications
+Decision trees have a wide range of applications. They are used in medical research for predicting outcomes based on various factors, in financial analysis for credit scoring, in data mining for extracting patterns, and in AI for game playing. Decision trees are also commonly used in operations research, specifically in decision analysis, to help identify a strategy most likely to reach a goal.

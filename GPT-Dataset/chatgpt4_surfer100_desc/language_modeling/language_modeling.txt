@@ -1,0 +1,14 @@
+SECTION 1: INTRODUCTION
+Language Modeling refers to the task of predicting the next word in a text given the words that came before. It is a crucial aspect of Natural Language Processing (NLP), an artificial intelligence subfield that specializes in the interaction between humans and computers using natural language. The task has broad applications in machine translation, speech recognition, information retrieval, among other fields. The motivation behind language modeling is to make computers understand and generate human language accurately.
+
+SECTION 2: HISTORY
+The concept of Language Modeling dates back to the 1980s with the advent of statistical machine translation methods. IBM made significant contributions to this field, especially the infamous IBM Model 1 in 1991. It was used to tackle the problem of sequence prediction which is foundational to applications like speech recognition and machine translation.
+
+SECTION 3: KEY IDEAS
+Underlying language modeling is the principle of predicting the likelihood of a sentence or sequence of words occurring in a particular language. This is usually calculated using the chain rule of probability, predicting each subsequent word based on the ones that came before. Recent methods use neural networks to generate these models, more commonly Recurrent Neural Networks (RNNs) and Transformer models.
+
+SECTION 4: USES/APPLICATIONS
+Language modeling is crucial in a variety of applications. In machine translation, it helps in deciding the most probable translation among several possible ones. In speech recognition, it helps in determining what the user more likely said among several possible interpretations of the sound. Moreover, language models form the backbone of text generation applications, including chatbots, autocompletion tools, and writing assistants.
+
+SECTION 5: VARIATIONS
+There are several variations of language models including unigram, bigram, trigram, and n-gram models, which predict the next word based on an increasing number of previous words. Recent developments incorporate neural networks to create models like LSTM (Long Short-Term Memory), GRU (Gated Recurrent Unit), and Transformer-based models like BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pretrained Transformer). These innovations paint a picture of an evolving field with evolving techniques.

@@ -1,0 +1,14 @@
+SECTION 1: INTRODUCTION
+Knowledge Graphs (KGs) are a significant development in the field of Semantic Web and Information Representation. As a model, they visually order facts, relationships, and concepts which facilitate better understanding and quick data processing. Their primary application lies in information retrieval, machine learning, data mining, and artificial intelligence. KGs have gained prominence in the tech world for their ability to provide comprehensive, organized, and interconnected data, powering search engines like Google.
+
+SECTION 2: HISTORY 
+The concept of Knowledge Graphs was introduced by Google in 2012 to improve its search engine results. The KG was used to understand the context and relevance of information, thus, providing more precise search results to user queries. It aimed to address the challenge of raw data interpretation and making connections among diverse datasets.
+
+SECTION 3: KEY IDEAS
+At the core, Knowledge Graphs consist of nodes (entities) and edges (relationships). Entities are things like people, places, or concepts, and relationships are the ways those things interact. These represent information in a structured way allowing machines to understand and process it. This graph-based structure helps allocate weights to nodes and edges which can quantify the significance of terms and their relations. 
+
+SECTION 4: USES/APPLICATIONS
+Knowledge Graphs serve a key role in numerous fields beyond just search engine optimization. Their data organization ability makes them beneficial for machine learning, data mining, natural language processing, and recommendation systems. Facebook’s social graph, Microsoft’s Satori, and Google’s Knowledge Graph are key examples of KGs at work.
+
+SECTION 5: VARIATIONS
+Variations of Knowledge Graphs exist, like Semantic Networks, Ontologies, and Concept Maps, which also represent knowledge in structured forms. As for differences, Semantic Networks focus mainly on relationships, Ontologies prioritize term classifications, and Concept Maps emphasize the human understanding aspect. Together, these models form a larger picture of how structured data representation can enable a more insightful understanding of information.

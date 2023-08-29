@@ -1,0 +1,14 @@
+Section 1: Introduction
+Meta Learning, also known as "learning to learn", is a subfield of machine learning where the models are designed to learn from their experience of learning different tasks. The goal of meta learning is to develop models that can adapt quickly to new tasks with minimal need for fine-tuning.
+
+Section 2: History
+The concept of meta learning has been around since the 1980s, but it gained significant attention in the 1990s with the work of Schmidhuber and Thrun. With the advent of deep learning and the increasing availability of large datasets, meta learning has seen a resurgence, as it offers a promising approach to tackle the challenge of learning from few examples.
+
+Section 3: Key Ideas
+The key idea behind meta learning is to design models that can learn how to learn. This is achieved by training a meta learner on a variety of learning tasks, allowing it to understand the structure of these tasks and how to adapt to them quickly. The meta learner essentially learns the learning algorithm itself, rather than just the parameters of a specific task.
+
+Section 4: Variations
+There are several approaches to meta learning, including metric-based methods (like Nearest Neighbors and Siamese Networks), model-based methods (like Memory-Augmented Neural Networks), and optimization-based methods (like MAML - Model-Agnostic Meta-Learning). Each approach has its own strengths and is suitable for different types of tasks.
+
+Section 5: Applications
+Meta learning has a wide range of applications. It's particularly useful in scenarios where data is scarce or where rapid adaptation to new tasks is required. This includes applications like few-shot learning, where the goal is to design machine learning models that can understand new concepts from a small number of examples, and reinforcement learning, where meta learning can help to accelerate the learning process. Other applications include neural architecture search and automatic machine learning (AutoML), where meta learning can guide the search process.
