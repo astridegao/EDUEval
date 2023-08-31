@@ -18,5 +18,3 @@ Describe for what tasks this model/data is used.
 
 SECTION 5: VARIATIONS
 What variations or similar models, datasets, tasks exist and how does this topic fit into a bigger picture.
-
-{'rouge-1': {'r': 0.2807591341321743, 'p': 0.2835638562214448, 'f': 0.27649421701364923}, 'rouge-2': {'r': 0.07199022188493605, 'p': 0.07458944059233366, 'f': 0.07108494090793212}, 'rouge-l': {'r': 0.2543786389553386, 'p': 0.25614831456311504, 'f': 0.25012445320104454}}

@@ -1,3 +1,2 @@
 Generate a survey about TOPIC, there should be five sub-sections: Introduction, History, Key Ideas, Variations and Applications. Each sub-section should contain 50-150 words.
 
-{'rouge-1': {'r': 0.29522944712588095, 'p': 0.36314689707539094, 'f': 0.3191384703999428}, 'rouge-2': {'r': 0.09705638131384256, 'p': 0.12059959439232285, 'f': 0.10464667887649745}, 'rouge-l': {'r': 0.2734642409253571, 'p': 0.335314703490728, 'f': 0.2952130510394377}}

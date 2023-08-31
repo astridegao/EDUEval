@@ -17,4 +17,3 @@ Word embeddings is an active research area trying to figure out better word repr
 
 Generate a survey about Topic, there should be five sub-sections: Introduction, History, Key Ideas, Variations and Applications. Each sub-section should contain 50-150 words.
 
-{'rouge-1': {'r': 0.3278880146205854, 'p': 0.30067842546861245, 'f': 0.30790248788923263}, 'rouge-2': {'r': 0.0782501359183166, 'p': 0.0710879254068313, 'f': 0.07277913251511858}, 'rouge-l': {'r': 0.30410380615246396, 'p': 0.27842003999970444, 'f': 0.2854296759363611}}
